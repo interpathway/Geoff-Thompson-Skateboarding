@@ -1,0 +1,26 @@
+uuid: d6027f26-00b9-4449-aca5-cf4532c6c9c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slam_clip
+    - node.type.slams
+  module:
+    - video
+id: node.slams.field_slam_clip
+field_name: field_slam_clip
+entity_type: node
+bundle: slams
+label: 'Slam Clip'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: ''
+  file_directory: 'videos/[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: video

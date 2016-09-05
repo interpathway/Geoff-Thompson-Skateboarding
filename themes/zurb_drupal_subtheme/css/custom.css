@@ -1,0 +1,458 @@
+.block-zurb-drupal-subtheme-indexes {
+  padding: 0;
+}
+
+.block-views-block-trick-of-the-day-trick-of-the-day {
+  padding: 0;
+}
+
+.bottom-bar {
+  display: none;
+}
+
+.dropdown.menu {
+  z-index: 99;
+}
+
+.dropdown li {
+  background: #d9d9d9;
+  border: 4px solid #00598E;
+  display: inline-block;
+  margin: 10px 5px -15px 0;
+}
+
+.frontpage video {
+  width: 100% !important;
+}
+
+.trick-of-the-day .field-content {
+  background: #d9d9d9;
+  border: 4px solid #00598E;
+  display: inline-block;
+  float: right;
+  margin-bottom: 10px;
+  padding: 2px 10px;
+  position: relative;
+  bottom: 21px;
+  visibility: hidden;
+}
+
+.dropdown li a,
+.trick-of-the-day .views-row a {
+  color: #00598E;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 6px 10px;
+}
+
+.dropdown li:last-of-type {
+  border: 4px solid #d9d9d9;
+}
+
+.dropdown li:last-of-type a {
+  background: #00598e;
+  color: #d9d9d9;
+}
+
+.favorite-skaters {
+  padding: 0 5px;
+}
+
+.favorite-skaters h2,
+.more-tricks h2 {
+  color: #404040;
+  font-size: 2em;
+  font-style: oblique;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.favorite-skaters iframe {
+  height: 250px;
+  width: 100%;
+}
+
+#block-views-block-favorite-skaters-favorite-skaters-3,
+#block-views-block-more-tricks-more-tricks {
+  background: rgba(0,0,0,.5);
+}
+
+#block-views-block-sticker-sticker {
+  background: url(../images/wood.jpg);
+  box-shadow: inset 0 0 5px 3px #000;
+  display: inline-block;
+  float: right;
+  margin: 15px 15px 15px 0;
+  min-width: 175px;
+}
+
+#footer {
+  margin-top: 15px;
+  padding: 0;
+}
+
+.field-name-field-related-tricks .field-label,
+.field-node--field-stances .field-label {
+  border-bottom: 2px solid #00598E;
+  float: left;
+  margin: 5px 15px 0 0;
+}
+
+.field.field-node--field-trick-tip:before {
+  content: 'Trick Tip by';
+  font-size: 1rem;
+  left: -85px;
+  position: absolute;
+}
+
+.field.field-node--field-trick-tip {
+  background: rgba(0,0,0,.5);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 2px 10px;
+  position: absolute;
+  right: 20px;
+  text-decoration: underline;
+  top: -28px;
+}
+
+.field-node--field-stances {
+  margin-bottom: 15px;
+}
+
+.field-node--field-clips {
+  margin-bottom: 36px;
+}
+
+.field-node--field-related-tricks {
+  min-height: 50px;
+}
+
+.field-name-field-related-tricks a,
+.field-node--field-stances .field-item {
+  background: #00598E;
+  border: 2px solid #d9d9d9;
+  color: #d9d9d9;
+  float: left;
+  margin: 0 10px 5px 0;
+  padding: 2px 10px;
+}
+
+.field-node--field-stances:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.field.field-comment--field-comment .field-item {
+  background: rgba(255,255,255,.8);
+  color: #000;
+  padding: 5px 10px;
+}
+
+.index .views-row {
+  background: rgba(0,0,0,.75);
+  border: 2px solid #00598E;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.index h3 {
+  margin: 10px 0;
+}
+
+.index h3 a {
+  color: #d9d9d9;
+}
+
+main {
+  padding-bottom: .9375rem;
+}
+
+main,
+.sidebar {
+  background: rgba(0,0,0,.5);
+  color: #d9d9d9;
+  position: relative;
+}
+
+.main-menu {
+  padding: 0;
+}
+
+.more-tricks .owl-next,
+.more-tricks .owl-prev {
+  bottom: -27px;
+}
+
+.more-tricks .owl-next {
+  right: 0;
+}
+
+.more-tricks .owl-prev {
+  left: 0;
+}
+
+.more-tricks h4 {
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+
+.more-tricks h4 a {
+  background: #d9d9d9;
+  border: 4px solid #00598E;
+  color: #00598E;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 10%;
+  padding: 5px 15px;
+  width: 80%;
+}
+
+.node--type-tricks .owl-next,
+.node--type-tricks .owl-prev {
+  bottom: 0;
+}
+
+.node--type-tricks section.field-wrapper {
+  background: rgba(0,89,142,.5);
+  border: 2px solid #d9d9d9;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  position: relative;
+}
+
+.node--type-tricks section.field-wrapper #edit-submit {
+  background: #00598E;
+  border: 2px solid #d9d9d9;
+  bottom: 10px;
+  padding: 7px 10px;
+  position: absolute;
+  right: 10px;
+}
+
+.node--type-tricks section.field-wrapper h2 {
+  display: none;
+}
+
+.node--type-tricks section.field-wrapper label {
+  color: #d9d9d9;
+}
+
+.node--type-tricks section.field-wrapper input {
+  margin: 0;
+}
+
+.node--type-tricks section.field-wrapper textarea {
+  margin-bottom: 10px;
+}
+
+.node--type-tricks .comment {
+  background: #00598e;
+  padding: 0 10px;
+}
+
+.node--type-tricks .comment:first-of-type {
+  padding-top: 10px;
+}
+
+.node--type-tricks .field-name-comment-post-date,
+.node--type-tricks .field-name-author {
+  display: inline-block;
+}  
+
+.node--type-tricks .field-name-field-comment {
+  display: block;
+}  
+
+.node--type-tricks .field.field-comment--field-author {
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.node--type-tricks .field-name-comment-post-date {
+  display: inline-block;
+  font-size: .75em;
+  font-style: oblique;
+}
+
+.off-canvas-content {
+  background: #888;
+  background: url(../images/concrete.jpg);
+  min-height: 100vh;
+}
+
+.owl-next {
+  background: rgba(0,0,0,.5);
+  bottom: -27px;
+  color: #d9d9d9;
+  padding: 0 15px 3px 15px;
+  position: absolute;
+  right: -5px;
+}
+
+.owl-prev {
+  background: rgba(0,0,0,.5);
+  bottom: -27px;
+  color: #d9d9d9;
+  left: -5px;
+  padding: 0 15px 3px 15px;
+  position: absolute;
+}
+
+.page-title h1 {
+ color: #404040;
+ font-style: oblique;
+ font-weight: 600;
+}
+
+.row {
+  background: #262626;
+  background: url(../images/grip.svg);
+}
+
+.sidebar h3 {
+  height: 36px;
+  margin: 0;
+  padding: 0 15px;
+  text-decoration: underline;
+}
+
+.sidebar h3 a {
+  color: #404040;
+  font-weight: 900;
+}
+
+.social-media img {
+  display: block;
+  height: 60px;
+}
+
+.sticker img {
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.3);
+  display: block;
+  margin: 10px auto;
+  transform: rotate(2deg);
+}
+
+table {
+  color: #000;
+}
+
+@media (min-width: 456px) {
+
+  .trick-of-the-day .field-content {
+    visibility: visible;
+  }
+
+}
+
+/* MEDIUM SCREENS */
+@media (min-width: 640px) {
+  
+  .favorite-skaters iframe {
+    height: 100%;
+  }
+ 
+  .dropdown li {
+    margin: 10px 5px 40px 0;
+  }
+ 
+  .trick-of-the-day .field-content {
+    margin: 10px 0;
+    bottom: 0;
+  }
+ 
+  .sidebar h3 {
+    height: 48px;
+  }
+  
+}
+
+/* LARGE SCREENS */
+@media (min-width: 1024px) {
+
+  .flex-container {
+    display: flex;
+  }
+
+  .index .views-row:nth-child(3n+2) {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  footer.row {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: 50px;
+  }
+
+  #footer {
+    background: url(../images/grip.svg);
+    border:  3px solid #f3d29f;
+    border-radius: 0 0 800px 800px;
+    border-top: 0;
+    bottom: 15px;
+    box-shadow: 20px 15px 40px 0px #000;
+    padding: 15px 15px 400px 15px;
+    position: relative;
+    right: 15px;
+    width: calc(100% + 30px);
+  }
+  
+  #footer:before,
+  #footer:after {
+    background: rgba(0,89,142,.6);
+    border-radius: 0 100% 100% 0;
+    box-shadow: 2px 0 10px 0 rgba(0,89,142,.6);
+    content: '';
+    height: 200px;
+    right: -9px;
+    position: absolute;
+    top: -200px;
+    width: 6px;
+  }
+  
+  #footer:before {
+    background: #00598E;
+    border-radius: 100% 0 0 100%;
+    box-shadow: -2px 0 5px 0 #00598E;
+    left: -9px;
+    right: auto;
+  }
+
+  .frontpage video {
+    padding: 15px 0;
+  }
+
+  .off-canvas-content .row:nth-child(2) {
+    box-shadow: 20px 20px 40px 0 #000;
+  }
+
+  .row {
+    border: 3px solid #f3d29f;
+    border-bottom: 0;
+    border-top: 0;
+    box-shadow: 20px 20px 40px 0 #000;
+    padding: 0 15px;
+    max-width: 65rem;
+  }
+
+  .sidebar h3 {
+    height: 42px;
+    padding: 5px 0 15px;
+  }
+
+  .social-media img {
+    height: 75px;
+  }
+
+}
+
+/* EXTRA LARGE SCREENS */
+@media (min-width: 1921px) {
+}

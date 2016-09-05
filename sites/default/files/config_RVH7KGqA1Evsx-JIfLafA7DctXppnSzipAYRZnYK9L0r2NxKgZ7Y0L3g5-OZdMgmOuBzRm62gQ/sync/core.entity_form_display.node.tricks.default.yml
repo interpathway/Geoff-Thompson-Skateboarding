@@ -1,0 +1,68 @@
+uuid: c931344d-f474-4ffd-8d13-b4ebb7f403e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tricks.field_clips
+    - field.field.node.tricks.field_stances
+    - field.field.node.tricks.field_trick_type
+    - node.type.tricks
+  module:
+    - path
+    - video
+id: node.tricks.default
+targetEntityType: node
+bundle: tricks
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_clips:
+    weight: 5
+    settings:
+      file_extensions: mov
+      file_directory: video-thumbnails/tricks
+      max_filesize: ''
+      uri_scheme: public
+      progress_indicator: bar
+    third_party_settings: {  }
+    type: video_upload
+  field_stances:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  field_trick_type:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+  path:
+    type: path
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 2
+    settings:
+      display_label: false
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  uid: true

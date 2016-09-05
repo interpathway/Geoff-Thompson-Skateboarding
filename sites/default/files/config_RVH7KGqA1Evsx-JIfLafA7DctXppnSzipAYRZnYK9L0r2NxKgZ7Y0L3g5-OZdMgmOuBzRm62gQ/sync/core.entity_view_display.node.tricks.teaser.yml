@@ -1,0 +1,53 @@
+uuid: 58cde3e6-edc1-47d0-9e98-d1c20fd5a279
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tricks.field_clips
+    - field.field.node.tricks.field_stances
+    - field.field.node.tricks.field_trick_type
+    - node.type.tricks
+  module:
+    - ds
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - node_title
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h4
+          class: ''
+id: node.tricks.teaser
+targetEntityType: node
+bundle: tricks
+mode: teaser
+content: {  }
+hidden:
+  field_clips: true
+  field_stances: true
+  field_trick_type: true
+  links: true

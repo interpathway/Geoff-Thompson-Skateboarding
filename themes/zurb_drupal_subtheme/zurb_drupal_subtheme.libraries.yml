@@ -1,0 +1,12 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/custom.css: {}
+      css/owl.carousel.css: {}
+  js:
+    js/STARTER.js: {}
+    js/owl-carousel.js: {}
+    js/owl.carousel.min.js: {}
+  dependencies:
+    - core/jquery

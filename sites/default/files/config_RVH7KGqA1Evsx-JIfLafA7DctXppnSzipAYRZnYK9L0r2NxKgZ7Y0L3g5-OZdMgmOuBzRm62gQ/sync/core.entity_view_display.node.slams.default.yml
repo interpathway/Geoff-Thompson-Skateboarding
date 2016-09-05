@@ -1,0 +1,50 @@
+uuid: 88f7b1a6-67ad-4c22-ac38-791e90cec188
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slams.field_slam_clip
+    - node.type.slams
+  module:
+    - ds
+    - user
+    - video
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      ds_content:
+        - field_slam_clip
+id: node.slams.default
+targetEntityType: node
+bundle: slams
+mode: default
+content:
+  field_slam_clip:
+    weight: 101
+    label: hidden
+    settings:
+      width: '854'
+      height: '480'
+      controls: true
+      loop: true
+      preload: auto
+      autoplay: false
+      muted: false
+    third_party_settings: {  }
+    type: video_player_list
+hidden:
+  links: true

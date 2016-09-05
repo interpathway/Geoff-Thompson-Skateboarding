@@ -1,0 +1,22 @@
+uuid: c9dc7092-e6c4-42f9-bb59-23076ca3673b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: tricks_url_slug
+label: 'Tricks URL Slug'
+type: 'canonical_entities:node'
+pattern: 'trick/[node:title]'
+selection_criteria:
+  df0d8c53-5e14-4c3d-bab2-3454c68ab300:
+    id: node_type
+    bundles:
+      tricks: tricks
+    negate: false
+    context_mapping:
+      node: node
+    uuid: df0d8c53-5e14-4c3d-bab2-3454c68ab300
+selection_logic: and
+weight: -5
+relationships: {  }

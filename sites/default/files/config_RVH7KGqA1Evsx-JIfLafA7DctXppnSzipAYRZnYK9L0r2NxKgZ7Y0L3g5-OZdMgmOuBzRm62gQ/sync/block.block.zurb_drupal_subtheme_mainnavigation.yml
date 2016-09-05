@@ -1,0 +1,28 @@
+uuid: b434e57d-2b50-4d73-b232-b4f02bb5309a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - zurb_drupal_subtheme
+third_party_settings:
+  block_class:
+    classes: main-menu
+id: zurb_drupal_subtheme_mainnavigation
+theme: zurb_drupal_subtheme
+region: header
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

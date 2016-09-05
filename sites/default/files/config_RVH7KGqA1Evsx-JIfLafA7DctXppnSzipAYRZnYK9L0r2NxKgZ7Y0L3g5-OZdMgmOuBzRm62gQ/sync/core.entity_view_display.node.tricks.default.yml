@@ -1,0 +1,65 @@
+uuid: 04fd43e6-de30-4476-9792-2f5b409a264d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tricks.field_clips
+    - field.field.node.tricks.field_stances
+    - field.field.node.tricks.field_trick_type
+    - node.type.tricks
+  module:
+    - ds
+    - options
+    - user
+    - video
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_stances
+        - field_clips
+        - field_related_tricks
+id: node.tricks.default
+targetEntityType: node
+bundle: tricks
+mode: default
+content:
+  field_clips:
+    weight: 1
+    label: visually_hidden
+    settings:
+      width: '1000'
+      height: '562'
+      controls: true
+      loop: true
+      preload: auto
+      autoplay: false
+      muted: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: video_player_list
+  field_stances:
+    weight: 0
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+hidden:
+  field_trick_type: true
+  links: true

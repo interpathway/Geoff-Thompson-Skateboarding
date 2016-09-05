@@ -1,0 +1,33 @@
+uuid: 0b1364bc-3b50-4629-b1d7-d9ea1bac3690
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_trick_type
+field_name: field_trick_type
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 1
+      label: Flip
+    -
+      value: !!float 2
+      label: Grind
+    -
+      value: !!float 3
+      label: Slide
+    -
+      value: !!float 4
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

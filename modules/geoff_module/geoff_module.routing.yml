@@ -1,0 +1,6 @@
+geoff_says:
+  path: /for/life
+  defaults:
+    _controller: Drupal\geoff_module\Controller\GeoffController::geoff
+  requirements:
+    _permission: 'access content'

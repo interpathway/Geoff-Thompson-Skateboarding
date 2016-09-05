@@ -1,0 +1,33 @@
+uuid: 68d62e09-b47d-4078-9ab4-a45534603713
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - zurb_drupal_subtheme
+third_party_settings:
+  block_class:
+    classes: ''
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: zurb_drupal_subtheme_local_tasks
+theme: zurb_drupal_subtheme
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,23 @@
+uuid: 9729c0ce-e13a-412e-992d-8a852e396216
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stances
+    - node.type.tricks
+  module:
+    - options
+id: node.tricks.field_stances
+field_name: field_stances
+entity_type: node
+bundle: tricks
+label: Stances
+description: 'What stances are seen in Clips?'
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_float

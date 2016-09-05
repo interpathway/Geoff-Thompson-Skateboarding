@@ -1,0 +1,22 @@
+uuid: 7763fe5b-6ef9-4c58-9071-d2302f4b2da6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zurb_drupal_subtheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: zurb_drupal_subtheme_content
+theme: zurb_drupal_subtheme
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

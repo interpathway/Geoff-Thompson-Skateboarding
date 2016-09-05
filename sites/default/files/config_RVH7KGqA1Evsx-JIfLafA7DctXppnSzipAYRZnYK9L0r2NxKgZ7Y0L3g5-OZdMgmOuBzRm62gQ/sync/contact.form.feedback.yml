@@ -1,0 +1,12 @@
+uuid: 1a64c771-2768-434d-a87f-2e1eccd58526
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - geoffqatest@gmail.com
+reply: ''
+weight: 0

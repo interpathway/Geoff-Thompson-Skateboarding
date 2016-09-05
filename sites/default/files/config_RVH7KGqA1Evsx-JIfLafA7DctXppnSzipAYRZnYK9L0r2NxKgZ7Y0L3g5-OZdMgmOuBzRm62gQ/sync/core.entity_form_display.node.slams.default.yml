@@ -1,0 +1,63 @@
+uuid: b8ad2f1d-9be6-4cde-a5b0-8fa9dc71244f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slams.field_slam_clip
+    - node.type.slams
+  module:
+    - path
+    - video
+id: node.slams.default
+targetEntityType: node
+bundle: slams
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_slam_clip:
+    weight: 31
+    settings:
+      file_extensions: mov
+      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
+      max_filesize: ''
+      uri_scheme: public
+      progress_indicator: bar
+    third_party_settings: {  }
+    type: video_upload
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
