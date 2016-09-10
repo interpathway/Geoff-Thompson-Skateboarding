@@ -155,7 +155,7 @@
       {% endif %}
 
       <div class="row">
-        <main id="main" class="{{ main_grid }} columns carousel" role="main">
+        <main id="main" class="{{ main_grid }} columns" role="main">
           {% if page.highlighted %}
             {% spaceless %}
               {{ page.highlighted }}
@@ -178,6 +178,7 @@
           </div>
         {% endif %}
       </div> 
+      
       {% if page.footer %}
         <footer class="row">
           {% if page.footer %}

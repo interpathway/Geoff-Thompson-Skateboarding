@@ -4,7 +4,7 @@
 (function($){
   "use strict";
 
-  var clips = $('.carousel .field-node--field-clips .field-item');
+  var clips = $('.node--type-tricks .field-node--field-clips .field-item');
   var moreTricks = $('.more-tricks .carousel');
 
   Drupal.behaviors.owlCarousel = {
