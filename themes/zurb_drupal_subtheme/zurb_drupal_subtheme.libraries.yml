@@ -3,6 +3,11 @@ global:
   css:
     base:
       css/custom.css: {}
+
+slider:
+  version: 1
+  css:
+    theme:
       css/owl.carousel.css: {}
   js:
     js/owl-carousel.js: {}
