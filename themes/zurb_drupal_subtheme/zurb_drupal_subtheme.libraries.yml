@@ -1,5 +1,5 @@
 global:
-  version: VERSION
+  version: 1
   css:
     base:
       css/custom.css: {}
