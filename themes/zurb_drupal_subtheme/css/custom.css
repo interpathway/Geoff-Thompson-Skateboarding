@@ -212,7 +212,9 @@ main,
 }
 
 .node--type-tricks .owl-next,
-.node--type-tricks .owl-prev {
+.node--type-tricks .owl-prev,
+.path-slams .owl-next,
+.path-slams .owl-prev {
   bottom: 0;
 }
 

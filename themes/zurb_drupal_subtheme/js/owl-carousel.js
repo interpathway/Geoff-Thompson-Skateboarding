@@ -6,6 +6,7 @@
 
   var clips = $('.node--type-tricks .field-node--field-clips .field-item');
   var moreTricks = $('.more-tricks .carousel');
+  var slams = $('.path-slams .carousel');
 
   Drupal.behaviors.owlCarousel = {
   attach: function(context) {
@@ -40,6 +41,18 @@
         },
         992:{
           items: 4
+        }
+      }
+    });
+    slams.owlCarousel({
+      margin: 10,
+      nav: true,
+      autoplay: false,
+      loop: true,
+      dots: true,
+      responsive:{
+        0:{
+          items: 1
         }
       }
     });
