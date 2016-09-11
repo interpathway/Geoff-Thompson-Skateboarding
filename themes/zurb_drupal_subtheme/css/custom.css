@@ -152,18 +152,15 @@
 }
 
 .index .views-row {
-  background: rgba(0,0,0,.75);
-  border: 2px solid #00598E;
   margin: 5px 0;
+  padding: 0 5px;
   text-align: center;
 }
 
-.index h3 {
-  margin: 10px 0;
-}
-
-.index h3 a {
-  color: #d9d9d9;
+.index .views-row a {
+  background: rgba(0,0,0,.4);
+  display: block;
+  width: 100%;
 }
 
 main {
@@ -379,11 +376,6 @@ table {
 
   .flex-container {
     display: flex;
-  }
-
-  .index .views-row:nth-child(3n+2) {
-    border-left: 0;
-    border-right: 0;
   }
 
   footer.row {
